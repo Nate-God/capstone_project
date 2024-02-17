@@ -1,0 +1,74 @@
+.home-styles{
+  padding-top: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+/*CHESS!! the design for the chess board is below, traverse if you dare*/
+.centered-cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.duo-puzzle-card-wrapper {
+  margin: 10px;
+  min-width: 237px;
+  width: 30vw;
+}
+
+
+#chessboard {
+  display: grid;
+  grid-template-columns: repeat(8, 90px);
+  grid-template-rows: repeat(8, 90px);
+  width: 720px;
+  height: 720px;
+  background-color: blue;
+}
+
+#chessboard .tile {
+  width: 90px;
+  height: 90px;
+}
+
+#chessboard .black-tile {
+  background-color: #779556;
+}
+
+#chessboard .white-tile {
+  background-color: #ebecd0;
+}
+
+.chess-pi-card {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 400px;
+  height: 400px;
+  background-color: rgba(255, 255, 255, 0.7);
+  border: 1px solid #000000;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.chess-pi-card-inner {
+  margin-top: 20px;
+}
+
+.chess-pi {
+  max-width: 25vw;
+  margin: 5px 25vw 20px;
+}
